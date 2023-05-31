@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:                   https://dntks1942.github.io
+# url:                   https://username.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -17,10 +17,10 @@ url:                   https://dntks1942.github.io
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en-us, ko-KR
+lang:                  ko-KR, en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 너무 어려운댑숑
+title:                 My Blog
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -32,7 +32,7 @@ description:           >
 tagline:               Change `tagline` in `_config.yml`
 
 # A list of keywords for your blog
-keywords:              ["programming"]
+keywords:              []
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -42,8 +42,8 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                신동욱
-  email:               dntks1942@pusan.ac.kr
+  name:                <firstname> <lastname>
+  email:               <mail@domain.tld>
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -55,10 +55,8 @@ menu:
     url:               /docs/
   - title:             About
     url:               /about/
-  - title:             Lecture
-    url:               /lecture/
-  - title:             백준
-    url:               /beakjoon/        
+  - title:              Beakjoon
+    url:               /beakjoon/
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
